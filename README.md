@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Naked twins problem is solved by focusing on one unit (vertical, horizontal or block grids) at a time and reduce the possible values. So that makes the search narrow and reduces the possible values for each of the boxes.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: By including the diagonal units, we increased the number of constraints by 2. All the techniques we implemented before operated with 27 constraints, now with the new constraints, the problem is solved using 29 constraints which further reduces the possible values.
 
 ### Install
 
